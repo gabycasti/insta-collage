@@ -1,10 +1,13 @@
-function drag(evento){
-    evento.preventDefault();
-
+function drag(ev) {
+  console.log(ev.target.src);
+  ev.dataTransfer.setData('text', ev.target.id);//ACA INDICAMOS EL TIPO DE DATO (FORMATO) QUE VAMOS A TRANFERIR 
 }
 
-fuction permitriDrop(evento){
-    evento.preventDefault();
-    var id_foto = evento.dataTranfer.getData('text');
-    evento.target.appendChild(document.getElementById(id_foto));
+function permitirDrop(ev){
+  ev.preventDefault();
+}
+function drop(ev) {
+  ev.preventDefault();
+  var id_foto = ev.dataTransfer.getData('text');//ACA RECUPERAMOS LOS DATOS 
+  ev.target.appendChild(document.getElementById(id_foto));
 }
