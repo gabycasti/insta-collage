@@ -1,6 +1,7 @@
 body{
+    text-align: center;
     width: 100%;
-    height: 500px;
+    height: 97.3vh;
     background:#DDD;
     background: -webkit-linear-gradient(top,#66B485,#C17B4F);
     background: -moz-linear-gradient(top,#66B485,#C17B4F);
@@ -8,32 +9,57 @@ body{
 
 
 .idioma{
-    font-size: 12px;
+    font-size: 35px;
     color:#fff;
+    margin-top: 4%;
 }
 
 .form-control{
     background:rgba(255, 255, 255, 0.3);
-    width: 280px;
-    margin-bottom: 10px;
-    
+    /*width: 280px;*/
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-.imagen{
-    width: 200px;
-    height:50px;
+.form-control::placeholder{
+  font-size: 35px;
+}
 
+
+#form-control{
+  margin-top: 15%;
+  height: 40%;
+  margin-bottom: 10%;
+}
+
+
+#form-control2{
+  height: 70%;
+  margin-bottom: 10%;
+}
+
+
+.imagen{
+    /*width: 440px;*/
+    width: 70%;
+    height:190px;
+    margin-top: 5%;
 }
 
 .btn-outline-light{
-    width: 280px;
+    /*width: 280px;*/
+    width: 100%;
+    height: 115%;
     color: white;
     border-color: #fff;
+    font-size: 35px;
+    margin-top: 2%;
 }
 
 .informacion{
-    font-size: 12px;
-    color:white;
+    font-size: 29px;
+    color: white;
+    margin-top: 7%;
 }
 
 hr{
