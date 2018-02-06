@@ -5,7 +5,11 @@ img {
 }
 
 .containerFoto {
-  min-height: 150px;
-  border: 2px solid black;
-  margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
 }
+
+
+
+

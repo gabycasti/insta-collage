@@ -17,6 +17,12 @@ $( document ).ready(function(){
      }else{
         $('#mensaje_usuario').fadeOut();
          return false;
+     }else if(clave == ""){
+       $("#mensaje_clave").fadeIn();
+       return false;
+     }else{
+        $('#mensaje_clave').fadeOut();
+         return false;
      }
        
     })

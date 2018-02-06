@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/arafkarim/BootstrapPlusPlus/2d8d0b9d/bpp/bpp.min.css">
     <link rel="stylesheet" href="assets/css/collage.css">
+    <link rel="stylesheet" href="libs/mobile-drag-drop/release/default.css">
+    <script src="https://use.fontawesome.com/a56a2ca9c5.js"></script>
 </head>
 <body>
     <!-- Logo titulos y subtitulos -->
@@ -17,33 +19,6 @@
     
 
     <!--Información Principal -->
-    <section id="contenido">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/592ad830b771a4e69ba10daa3085f0b5--margarita-venezuela.jpg" alt="">
-          </div>
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/63ffe564e959568b8d9f7884107e6315.jpg" alt="">
-          </div>
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/SALTO-ANGEL-COP-OK.jpg" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/40e79431-e5a1-4d61-8a24-ab9529440d8d.jpg" alt="">
-          </div>
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/losroques-atoll_thumb.jpg" alt="">
-          </div>
-          <div class="col-xs-4 col-md-4">
-            <img  id="foto_1" draggable="true" ondrasgstar="drag(evento)" src="assets/img/Mérida.jpeg" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section> 
       <div class="col-md-2">
         <a href="" class="fotosFavoritas">Fotos</a>
@@ -52,12 +27,39 @@
         <div class="ContainerFoto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
       </div>
     </section>
+    <section id="contenido">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/40e79431-e5a1-4d61-8a24-ab9529440d8d.jpg">
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/592ad830b771a4e69ba10daa3085f0b5--margarita-venezuela.jpg">
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/63ffe564e959568b8d9f7884107e6315.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <img id="foto4" draggable="true" ondragstart="drag(event)" src="assets/img/imagen1.jpg">
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img id="foto5" draggable="true" ondragstart="drag(event)" src="assets/img/imagen2.jpg">
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img id="foto6" draggable="true" ondragstart="drag(event)" src="assets/img/losroques-atoll_thumb.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/a56a2ca9c5.js"></script>
+<script src="libs/mobile-drag-drop/release/index.min.js"></script>
 <script src="assets/js/collage.js"></script>
 
 </body>
