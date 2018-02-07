@@ -21,6 +21,7 @@ body{
     margin-top: 2%;
 }
 
+
 .form-control::placeholder{
   font-size: 35px;
 }
