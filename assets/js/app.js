@@ -23,7 +23,6 @@ $( document ).ready(function(){
     }else{
         $("#mensaje_clave2").fadeOut();
          if(pasword == "123456"){
-            console.log(pasword);
         $("#mensaje_clave3").fadeIn();
        return false;
         }
