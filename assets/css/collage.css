@@ -1,15 +1,25 @@
 img {
   width: 100%;
-  height: 100%;
-  margin-bottom: 30px;
+  height: 20vh;
 }
 
 .containerFoto {
-    width: 150px;
-    height: 150px;
-    border: 2px solid green;
+  width: 103%;
+  height: 15vh;
+  border: 2px solid green;
 }
 
+#photoBoot {
+  width: 101.5%;
+  height: 10vh;
+}
 
+#collage2{
+  margin-top: 6%;
+}
+
+#collage3 {
+  height: 32.2vh;
+}
 
 

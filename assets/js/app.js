@@ -59,4 +59,3 @@ function guardar_localstorage(){
     localStorage.setItem("persona",JSON.stringify(persona));
 }
 
-

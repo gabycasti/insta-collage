@@ -1,24 +1,28 @@
 body{
-    text-align: center;
-    width: 100%;
-    height: 97.3vh;
-    background:#DDD;
-    background: -webkit-linear-gradient(top,#66B485,#C17B4F);
-    background: -moz-linear-gradient(top,#66B485,#C17B4F);
+  text-align: center;
+  width: 100%;
+  height: 100vh; /*altura del color de fondo*/
+  background: #DDD;
+  background: -webkit-linear-gradient(top,#66B485,#C17B4F);
+  background: -moz-linear-gradient(top,#66B485,#C17B4F);
 }
 
-
 .idioma{
-    font-size: 35px;
-    color:#fff;
-    margin-top: 4%;
+  font-size: 35px;
+  color:#fff;
+  margin-top: 4%;
+}
+
+/*icono de flecha*/
+.fa-angle-down {
+  color: #fff;
 }
 
 .form-control{
-    background:rgba(255, 255, 255, 0.3);
-    /*width: 280px;*/
-    margin-bottom: 2%;
-    margin-top: 2%;
+  background:rgba(255, 255, 255, 0.3);
+  /*width: 280px;*/
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 
@@ -26,71 +30,88 @@ body{
   font-size: 35px;
 }
 
-
 #usuario{
   margin-top: 15%;
   height: 40%;
   margin-bottom: 10%;
 }
 
-
 #clave{
   height: 70%;
   margin-bottom: 10%;
 }
 
-
 .imagen{
-    /*width: 440px;*/
-    width: 70%;
-    height:190px;
-    margin-top: 5%;
+  /*width: 440px;*/
+  width: 70%;
+  height:190px;
+  margin-top: 5%;
 }
 
 .btn-outline-light{
-    /*width: 280px;*/
-    width: 100%;
-    height: 115%;
-    color: white;
-    border-color: #fff;
-    font-size: 35px;
-    margin-top: 2%;
+  /*width: 280px;*/
+  width: 100%;
+  height: 115%;
+  color: white;
+  border-color: #fff;
+  font-size: 35px;
+  margin-top: 2%;
 }
 
 .informacion{
-    font-size: 29px;
-    color: white;
-    margin-top: 7%;
+  font-size: 29px;
+  color: white;
+  margin-top: 7%;
 }
 
 hr{
-    width: 90%;
-    background-color: white;
+  width: 90%;
+  background-color: white;
 }
 
 .errores{
-    font-size: 20px;
-    color: white;
+  font-size: 12px;
+  color: red;
 }
 
 #mensaje_usuario{
-    display: none;
+  display: none;
 }
 
-<<<<<<< HEAD
-#mensaje_clave{
-    display: none;
+#mensaje_clave,#mensaje_clave2,#mensaje_clave3{
+  display: none;
 }
 
-#mensaje_clave2{
-    display: none;
+#rowLine {
+  margin-top: 5%;
 }
 
-#mensaje_clave3{
-    display: none;
+#line,#line2 {
+  color: #fff;
 }
 
+#pPostLine {
+  color: #fff;
+  font-size: 32px;
+}
 
+#rowFacebook {
+  margin-top: 3%;
+}
 
-=======
->>>>>>> 8d31cabb1dd4b868b44f7b27e4d4b3ce4dababf1
+#ultimo {
+  color: #fff;
+  font-size: 37px;
+}
+
+#footer {
+  border-top: 1px solid #fff;
+  margin-top: 40%;
+}
+
+#footerParagraph {
+  color: #fff;
+  font-size: 33px;
+  margin-top: 3%;
+}
+
