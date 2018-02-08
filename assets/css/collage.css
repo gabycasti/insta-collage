@@ -5,15 +5,15 @@
 }
 
 #foto1, #foto2, #foto3, #foto4 ,#foto5 ,#foto6 ,#foto7 ,#foto8 ,#foto9{
-    max-height: 150px;
-    min-width: 67px;
-    min-height: 67px;
+    max-height: 160px;
+    min-width: 100px;
+    min-height: 100px;
     padding-bottom: 5px;
 }
 
 .marco{
     width: auto;
-    height: 100px;
+    height: 250px;
     border: 2px solid green;
     margin-bottom: 10px;
 
@@ -21,7 +21,7 @@
 
 .marco2{
     width: auto;
-    height:210px;
+    height:510px;
     min-height: 150px;
     border: 2px solid green;
 }
