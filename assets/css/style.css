@@ -34,11 +34,13 @@ body{
   margin-top: 15%;
   height: 40%;
   margin-bottom: 10%;
+  font-size: 35px;
 }
 
 #clave{
   height: 70%;
   margin-bottom: 10%;
+  font-size: 35px;
 }
 
 .imagen{
@@ -106,7 +108,7 @@ hr{
 
 #footer {
   border-top: 1px solid #fff;
-  margin-top: 40%;
+  margin-top: 18%;
 }
 
 #footerParagraph {
